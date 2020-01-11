@@ -1,4 +1,4 @@
-FROM ubuntu:18.04 as node
+FROM node:latest as node
 WORKDIR /app
 COPY package.json package.json
 RUN npm install
